@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>芜湖市区文旅导览地图 - 高德版</title>
     
-    <!-- 高德JS API v2.0 -->
-    <script src="https://webapi.amap.com/maps?v=2.0&key=4af787bf777064dc63b780ca739296ee&plugin=AMap.ToolBar,AMap.Geolocation,AMap.MouseTool,AMap.DistrictSearch,AMap.Scale"></script>
+    <!-- 高德JS API v2.0 安全密钥配置 -->
+    <script type="text/javascript">
+        window._AMapSecurityConfig = {
+            securityJsCode: '2bf851d2a89913be55541f0a7e334123',
+        };
+    </script>
+    <script src="https://webapi.amap.com/maps?v=2.0&key=a7ea2033111a20636cf14f8394423359&plugin=AMap.ToolBar,AMap.Geolocation,AMap.MouseTool,AMap.DistrictSearch,AMap.Scale"></script>
     
     <!-- 自定义样式 -->
     <link rel="stylesheet" href="css/style.css">
