@@ -1,0 +1,285 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "镜湖公园",
+        "category": "公园",
+        "address": "芜湖市镜湖区镜湖路",
+        "intro": "芜湖最著名的城市公园，位于市中心，湖光山色，景色宜人，是市民休闲娱乐的好去处。",
+        "rating": 4.5,
+        "opening_hours": "全天开放",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.3765, 31.3328] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "赭山公园",
+        "category": "公园",
+        "address": "芜湖市镜湖区赭山路",
+        "intro": "赭山公园是芜湖市区内最大的综合性公园，园内有赭山塔、动物园等景点，登顶可俯瞰芜湖全景。",
+        "rating": 4.6,
+        "opening_hours": "06:00-22:00",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.3821, 31.3412] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "神山公园",
+        "category": "公园",
+        "address": "芜湖市鸠江区神山路",
+        "intro": "神山公园是芜湖的天然氧吧，山林茂密，空气清新，有多条登山步道，适合徒步和健身。",
+        "rating": 4.3,
+        "opening_hours": "06:00-21:00",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.4112, 31.3589] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "滨江公园",
+        "category": "公园",
+        "address": "芜湖市镜湖区滨江路",
+        "intro": "沿长江而建的滨江景观带，可欣赏长江壮阔景色，是散步、观江、拍照的绝佳地点。",
+        "rating": 4.7,
+        "opening_hours": "全天开放",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.3612, 31.3415] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": "汀棠公园",
+        "category": "公园",
+        "address": "芜湖市镜湖区汀棠路",
+        "intro": "汀棠公园以水景为特色，园内湖面宽阔，绿树成荫，是市民休闲散步的好去处。",
+        "rating": 4.2,
+        "opening_hours": "06:00-21:00",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.3956, 31.3521] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "弋矶山公园",
+        "category": "公园",
+        "address": "芜湖市镜湖区弋矶山路",
+        "intro": "弋矶山公园位于长江之滨，历史悠久，园内有古建筑和江景观景台，风景优美。",
+        "rating": 4.1,
+        "opening_hours": "全天开放",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.3668, 31.3502] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "芜湖古城",
+        "category": "景点",
+        "address": "芜湖市镜湖区环城北路",
+        "intro": "芜湖古城是芜湖历史文化的缩影，明清建筑风格，集文化展示、旅游观光、商业休闲于一体。",
+        "rating": 4.4,
+        "opening_hours": "09:00-21:00",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.3725, 31.3258] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "name": "鸠兹古镇",
+        "category": "景点",
+        "address": "芜湖市鸠江区鸠兹古镇",
+        "intro": "鸠兹古镇以徽派建筑为特色，集民俗文化、美食购物、休闲娱乐于一体，是芜湖热门旅游目的地。",
+        "rating": 4.3,
+        "opening_hours": "09:00-22:00",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.4389, 31.3658] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "鸠兹广场",
+        "category": "景点",
+        "address": "芜湖市镜湖区鸠兹广场",
+        "intro": "芜湖城市中心广场，地标性建筑，广场中央有大型雕塑，周边商业繁华。",
+        "rating": 4.2,
+        "opening_hours": "全天开放",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.3742, 31.3345] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "name": "天门山",
+        "category": "景点",
+        "address": "芜湖市鸠江区天门山",
+        "intro": "天门山是芜湖著名风景区，山势陡峭，风景秀丽，有\"天门中断楚江开\"的壮丽景观。",
+        "rating": 4.5,
+        "opening_hours": "08:00-17:00",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.3512, 31.4215] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "name": "芜湖长江大桥",
+        "category": "景点",
+        "address": "芜湖市镜湖区",
+        "intro": "芜湖长江大桥是公铁两用桥，连接芜湖市区与江北，是芜湖的重要交通枢纽和地标建筑。",
+        "rating": 4.6,
+        "opening_hours": "全天开放",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.3558, 31.3685] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "name": "方特欢乐世界",
+        "category": "游乐园",
+        "address": "芜湖市鸠江区银湖北路",
+        "intro": "华强方特旗下的大型主题乐园，拥有众多刺激好玩的游乐设施和精彩演艺，适合全家游玩。",
+        "rating": 4.7,
+        "opening_hours": "09:30-18:00（周末延长）",
+        "ticket": "成人票260元起"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.4256, 31.3721] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "name": "方特梦幻王国",
+        "category": "游乐园",
+        "address": "芜湖市鸠江区赤铸山东路",
+        "intro": "方特梦幻王国以中国传统文化为主题，结合现代科技，打造梦幻般的游乐体验。",
+        "rating": 4.6,
+        "opening_hours": "09:30-18:00",
+        "ticket": "成人票260元起"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.4312, 31.3785] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "name": "芜湖大白鲸海洋公园",
+        "category": "游乐园",
+        "address": "芜湖市鸠江区徽州路",
+        "intro": "大型海洋主题公园，有白鲸、海豚等海洋动物表演，是亲子游的热门选择。",
+        "rating": 4.4,
+        "opening_hours": "09:00-17:30",
+        "ticket": "成人票200元"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.4412, 31.3698] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "name": "芜湖方特水上乐园",
+        "category": "游乐园",
+        "address": "芜湖市鸠江区方特旅游区",
+        "intro": "大型水上主题乐园，拥有多种水上游乐设施，夏季消暑的好去处。",
+        "rating": 4.3,
+        "opening_hours": "10:00-18:00（夏季开放）",
+        "ticket": "成人票200元"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.4289, 31.3752] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "name": "中央公园",
+        "category": "公园",
+        "address": "芜湖市鸠江区政务文化中心",
+        "intro": "芜湖中央公园是城东新区的大型城市公园，环境优美，适合散步休闲。",
+        "rating": 4.0,
+        "opening_hours": "全天开放",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.4189, 31.3485] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "name": "中江公园",
+        "category": "公园",
+        "address": "芜湖市鸠江区中江大道",
+        "intro": "中江公园是城东新区的重要公园，沿水系而建，景色优美。",
+        "rating": 4.1,
+        "opening_hours": "全天开放",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.4258, 31.3552] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "name": "广济寺",
+        "category": "景点",
+        "address": "芜湖市镜湖区赭山公园内",
+        "intro": "广济寺是芜湖著名的佛教寺庙，历史悠久，香火旺盛，位于赭山公园内。",
+        "rating": 4.3,
+        "opening_hours": "07:00-17:00",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.3815, 31.3405] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "name": "芜湖博物馆",
+        "category": "景点",
+        "address": "芜湖市鸠江区政务文化中心",
+        "intro": "芜湖博物馆展示了芜湖悠久的历史文化，馆藏丰富，是了解芜湖的好去处。",
+        "rating": 4.4,
+        "opening_hours": "09:00-17:00（周一闭馆）",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.4125, 31.3452] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "name": "滨江风光带",
+        "category": "景点",
+        "address": "芜湖市镜湖区长江沿岸",
+        "intro": "芜湖滨江风光带是沿长江打造的景观长廊，可欣赏长江美景，是市民休闲健身的好去处。",
+        "rating": 4.5,
+        "opening_hours": "全天开放",
+        "ticket": "免费"
+      },
+      "geometry": { "type": "Point", "coordinates": [118.3625, 31.3385] }
+    }
+  ]
+}

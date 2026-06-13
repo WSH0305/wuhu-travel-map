@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>芜湖市区文旅导览地图 - 高德版</title>
+    
+    <!-- 高德JS API v2.0 -->
+    <script src="https://webapi.amap.com/maps?v=2.0&key=4af787bf777064dc63b780ca739296ee&plugin=AMap.ToolBar,AMap.Geolocation,AMap.MouseTool,AMap.DistrictSearch,AMap.Scale"></script>
+    
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- ========== 顶部导航 ========== -->
+    <div class="header">
+        <div class="header-title">
+            <span>🗺️</span>
+            芜湖市区文旅导览地图
+        </div>
+        <div class="header-controls">
+            <button class="btn-header" id="locateBtn" onclick="locateMe()">📍 定位</button>
+            <button class="btn-header" id="measureBtn" onclick="toggleMeasure()">📏 测距</button>
+            <button class="btn-header" id="themeBtn" onclick="toggleTheme()">🌙 夜间</button>
+            <button class="btn-header" onclick="toggleSidebar()">📋 列表</button>
+        </div>
+    </div>
+    
+    <!-- ========== 地图容器 ========== -->
+    <div id="map"></div>
+    
+    <!-- ========== 搜索框 ========== -->
+    <div class="search-box">
+        <input type="text" class="search-input" id="searchInput" placeholder="🔍 搜索芜湖的公园、景点、游乐园...">
+        <div class="search-results" id="searchResults"></div>
+    </div>
+    
+    <!-- ========== 左侧信息面板 ========== -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <span>🏞️ 景点导览</span>
+            <button class="btn-header" onclick="toggleSidebar()" style="padding:4px 10px;font-size:12px;">✕</button>
+        </div>
+        <div class="sidebar-content">
+            
+            <!-- 统计面板 -->
+            <div class="stats-panel">
+                <div class="stats-title">📊 数据统计</div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" id="statParks">0</div>
+                        <div class="stat-label">🌳 公园</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="statSpots">0</div>
+                        <div class="stat-label">🏛️ 景点</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="statFun">0</div>
+                        <div class="stat-label">🎢 游乐园</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 分类筛选 -->
+            <div class="filter-group">
+                <button class="filter-btn active" data-filter="全部" onclick="filterByCategory('全部')">🏠 全部</button>
+                <button class="filter-btn" data-filter="公园" onclick="filterByCategory('公园')">🌳 公园</button>
+                <button class="filter-btn" data-filter="景点" onclick="filterByCategory('景点')">🏛️ 景点</button>
+                <button class="filter-btn" data-filter="游乐园" onclick="filterByCategory('游乐园')">🎢 游乐园</button>
+            </div>
+            
+            <!-- 地点列表 -->
+            <div class="place-list" id="placeList">
+                <p style="color:var(--text-light);text-align:center;padding:20px;">正在加载数据...</p>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- ========== 图例 ========== -->
+    <div class="legend">
+        <div class="legend-title">🎨 图例</div>
+        <div style="font-size:11px;color:var(--text-light);margin-bottom:6px;">💡 右上角可切换底图</div>
+        <div class="legend-item">
+            <div class="legend-icon" style="background:#2ecc71;"></div>
+            <span>🌳 公园</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-icon" style="background:#f39c12;"></div>
+            <span>🏛️ 景点</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-icon" style="background:#e74c3c;"></div>
+            <span>🎢 游乐园</span>
+        </div>
+    </div>
+    
+    <!-- ========== JavaScript ========== -->
+    <script src="js/main_amap.js"></script>
+    
+</body>
+</html>
